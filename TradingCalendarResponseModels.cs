@@ -45,12 +45,7 @@ record Option(
 //Assumption
 
 // - Month keys use YYYY-MM format, for example 2019-10.
-// - SelectedMonthKey always points to an existing key in MonthsByKey.
-// - Disabled months can be shown in navigation but are absent from MonthsByKey.
-// - Days contains only days with positions; missing days are rendered as empty cells with "-".
-// - FirstDayWeekdayIndex is based on the returned Weekdays order.
-// - Popup open state is FE-only and not included.
-// - FE builds the calendar grid from DaysInMonth, FirstDayWeekdayIndex and Weekdays; no external calendar library is required.
+// - Days contains only days with positions; missing days are rendered as empty cells with "-". Thats why we don't have null options in ProfitUsdt/ProfitPercent
 
 
 
