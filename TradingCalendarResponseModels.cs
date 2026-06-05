@@ -10,7 +10,6 @@ record CalendarResponse(
 
 record CalendarYearNavItem(
     int Value,
-    string Label,
     bool IsSelected,
     bool IsDisabled
 );
@@ -62,7 +61,6 @@ record CalendarResponse(
 
 record CalendarYearNavItem(
     int Value,
-    string Label,
     bool IsSelected,
     bool IsDisabled
 );
