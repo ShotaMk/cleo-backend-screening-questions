@@ -23,6 +23,7 @@ record CalendarMonthNavItem(
 );
 
 record CalendarMonthData(
+    string Key,
     int DaysInMonth,
     int FirstDayWeekdayIndex,
     List<TradingDay> Days
